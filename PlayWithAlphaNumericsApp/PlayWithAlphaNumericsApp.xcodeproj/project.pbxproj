@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		864946472AAFB21C005490BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864946462AAFB21C005490BA /* AppDelegate.swift */; };
+		864946492AAFB21C005490BA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864946482AAFB21C005490BA /* SceneDelegate.swift */; };
+		8649464B2AAFB21C005490BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8649464A2AAFB21C005490BA /* ViewController.swift */; };
+		8649464E2AAFB21C005490BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8649464C2AAFB21C005490BA /* Main.storyboard */; };
+		864946502AAFB21D005490BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8649464F2AAFB21D005490BA /* Assets.xcassets */; };
+		864946532AAFB21D005490BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 864946512AAFB21D005490BA /* LaunchScreen.storyboard */; };
+		8649465E2AAFB21D005490BA /* PlayWithAlphaNumericsAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8649465D2AAFB21D005490BA /* PlayWithAlphaNumericsAppTests.swift */; };
+		864946682AAFB21D005490BA /* PlayWithAlphaNumericsAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864946672AAFB21D005490BA /* PlayWithAlphaNumericsAppUITests.swift */; };
+		8649466A2AAFB21D005490BA /* PlayWithAlphaNumericsAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864946692AAFB21D005490BA /* PlayWithAlphaNumericsAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8649465A2AAFB21D005490BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8649463B2AAFB21C005490BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 864946422AAFB21C005490BA;
+			remoteInfo = PlayWithAlphaNumericsApp;
+		};
+		864946642AAFB21D005490BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8649463B2AAFB21C005490BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 864946422AAFB21C005490BA;
+			remoteInfo = PlayWithAlphaNumericsApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		864946432AAFB21C005490BA /* PlayWithAlphaNumericsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayWithAlphaNumericsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		864946462AAFB21C005490BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		864946482AAFB21C005490BA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8649464A2AAFB21C005490BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8649464D2AAFB21C005490BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8649464F2AAFB21D005490BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		864946522AAFB21D005490BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		864946542AAFB21D005490BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		864946592AAFB21D005490BA /* PlayWithAlphaNumericsAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlayWithAlphaNumericsAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8649465D2AAFB21D005490BA /* PlayWithAlphaNumericsAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayWithAlphaNumericsAppTests.swift; sourceTree = "<group>"; };
+		864946632AAFB21D005490BA /* PlayWithAlphaNumericsAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlayWithAlphaNumericsAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		864946672AAFB21D005490BA /* PlayWithAlphaNumericsAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayWithAlphaNumericsAppUITests.swift; sourceTree = "<group>"; };
+		864946692AAFB21D005490BA /* PlayWithAlphaNumericsAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayWithAlphaNumericsAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		864946402AAFB21C005490BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		864946562AAFB21D005490BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		864946602AAFB21D005490BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8649463A2AAFB21C005490BA = {
+			isa = PBXGroup;
+			children = (
+				864946452AAFB21C005490BA /* PlayWithAlphaNumericsApp */,
+				8649465C2AAFB21D005490BA /* PlayWithAlphaNumericsAppTests */,
+				864946662AAFB21D005490BA /* PlayWithAlphaNumericsAppUITests */,
+				864946442AAFB21C005490BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		864946442AAFB21C005490BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				864946432AAFB21C005490BA /* PlayWithAlphaNumericsApp.app */,
+				864946592AAFB21D005490BA /* PlayWithAlphaNumericsAppTests.xctest */,
+				864946632AAFB21D005490BA /* PlayWithAlphaNumericsAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		864946452AAFB21C005490BA /* PlayWithAlphaNumericsApp */ = {
+			isa = PBXGroup;
+			children = (
+				864946462AAFB21C005490BA /* AppDelegate.swift */,
+				864946482AAFB21C005490BA /* SceneDelegate.swift */,
+				8649464A2AAFB21C005490BA /* ViewController.swift */,
+				8649464C2AAFB21C005490BA /* Main.storyboard */,
+				8649464F2AAFB21D005490BA /* Assets.xcassets */,
+				864946512AAFB21D005490BA /* LaunchScreen.storyboard */,
+				864946542AAFB21D005490BA /* Info.plist */,
+			);
+			path = PlayWithAlphaNumericsApp;
+			sourceTree = "<group>";
+		};
+		8649465C2AAFB21D005490BA /* PlayWithAlphaNumericsAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				8649465D2AAFB21D005490BA /* PlayWithAlphaNumericsAppTests.swift */,
+			);
+			path = PlayWithAlphaNumericsAppTests;
+			sourceTree = "<group>";
+		};
+		864946662AAFB21D005490BA /* PlayWithAlphaNumericsAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				864946672AAFB21D005490BA /* PlayWithAlphaNumericsAppUITests.swift */,
+				864946692AAFB21D005490BA /* PlayWithAlphaNumericsAppUITestsLaunchTests.swift */,
+			);
+			path = PlayWithAlphaNumericsAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		864946422AAFB21C005490BA /* PlayWithAlphaNumericsApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8649466D2AAFB21D005490BA /* Build configuration list for PBXNativeTarget "PlayWithAlphaNumericsApp" */;
+			buildPhases = (
+				8649463F2AAFB21C005490BA /* Sources */,
+				864946402AAFB21C005490BA /* Frameworks */,
+				864946412AAFB21C005490BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlayWithAlphaNumericsApp;
+			productName = PlayWithAlphaNumericsApp;
+			productReference = 864946432AAFB21C005490BA /* PlayWithAlphaNumericsApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		864946582AAFB21D005490BA /* PlayWithAlphaNumericsAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 864946702AAFB21D005490BA /* Build configuration list for PBXNativeTarget "PlayWithAlphaNumericsAppTests" */;
+			buildPhases = (
+				864946552AAFB21D005490BA /* Sources */,
+				864946562AAFB21D005490BA /* Frameworks */,
+				864946572AAFB21D005490BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8649465B2AAFB21D005490BA /* PBXTargetDependency */,
+			);
+			name = PlayWithAlphaNumericsAppTests;
+			productName = PlayWithAlphaNumericsAppTests;
+			productReference = 864946592AAFB21D005490BA /* PlayWithAlphaNumericsAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		864946622AAFB21D005490BA /* PlayWithAlphaNumericsAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 864946732AAFB21D005490BA /* Build configuration list for PBXNativeTarget "PlayWithAlphaNumericsAppUITests" */;
+			buildPhases = (
+				8649465F2AAFB21D005490BA /* Sources */,
+				864946602AAFB21D005490BA /* Frameworks */,
+				864946612AAFB21D005490BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				864946652AAFB21D005490BA /* PBXTargetDependency */,
+			);
+			name = PlayWithAlphaNumericsAppUITests;
+			productName = PlayWithAlphaNumericsAppUITests;
+			productReference = 864946632AAFB21D005490BA /* PlayWithAlphaNumericsAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8649463B2AAFB21C005490BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					864946422AAFB21C005490BA = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					864946582AAFB21D005490BA = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 864946422AAFB21C005490BA;
+					};
+					864946622AAFB21D005490BA = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 864946422AAFB21C005490BA;
+					};
+				};
+			};
+			buildConfigurationList = 8649463E2AAFB21C005490BA /* Build configuration list for PBXProject "PlayWithAlphaNumericsApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8649463A2AAFB21C005490BA;
+			productRefGroup = 864946442AAFB21C005490BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				864946422AAFB21C005490BA /* PlayWithAlphaNumericsApp */,
+				864946582AAFB21D005490BA /* PlayWithAlphaNumericsAppTests */,
+				864946622AAFB21D005490BA /* PlayWithAlphaNumericsAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		864946412AAFB21C005490BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				864946532AAFB21D005490BA /* LaunchScreen.storyboard in Resources */,
+				864946502AAFB21D005490BA /* Assets.xcassets in Resources */,
+				8649464E2AAFB21C005490BA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		864946572AAFB21D005490BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		864946612AAFB21D005490BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8649463F2AAFB21C005490BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8649464B2AAFB21C005490BA /* ViewController.swift in Sources */,
+				864946472AAFB21C005490BA /* AppDelegate.swift in Sources */,
+				864946492AAFB21C005490BA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		864946552AAFB21D005490BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8649465E2AAFB21D005490BA /* PlayWithAlphaNumericsAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8649465F2AAFB21D005490BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				864946682AAFB21D005490BA /* PlayWithAlphaNumericsAppUITests.swift in Sources */,
+				8649466A2AAFB21D005490BA /* PlayWithAlphaNumericsAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8649465B2AAFB21D005490BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 864946422AAFB21C005490BA /* PlayWithAlphaNumericsApp */;
+			targetProxy = 8649465A2AAFB21D005490BA /* PBXContainerItemProxy */;
+		};
+		864946652AAFB21D005490BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 864946422AAFB21C005490BA /* PlayWithAlphaNumericsApp */;
+			targetProxy = 864946642AAFB21D005490BA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8649464C2AAFB21C005490BA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8649464D2AAFB21C005490BA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		864946512AAFB21D005490BA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				864946522AAFB21D005490BA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8649466B2AAFB21D005490BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8649466C2AAFB21D005490BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8649466E2AAFB21D005490BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PlayWithAlphaNumericsApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.northwest.PlayWithAlphaNumericsApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8649466F2AAFB21D005490BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PlayWithAlphaNumericsApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.northwest.PlayWithAlphaNumericsApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		864946712AAFB21D005490BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.northwest.PlayWithAlphaNumericsAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlayWithAlphaNumericsApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PlayWithAlphaNumericsApp";
+			};
+			name = Debug;
+		};
+		864946722AAFB21D005490BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.northwest.PlayWithAlphaNumericsAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlayWithAlphaNumericsApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PlayWithAlphaNumericsApp";
+			};
+			name = Release;
+		};
+		864946742AAFB21D005490BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.northwest.PlayWithAlphaNumericsAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PlayWithAlphaNumericsApp;
+			};
+			name = Debug;
+		};
+		864946752AAFB21D005490BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.northwest.PlayWithAlphaNumericsAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PlayWithAlphaNumericsApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8649463E2AAFB21C005490BA /* Build configuration list for PBXProject "PlayWithAlphaNumericsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8649466B2AAFB21D005490BA /* Debug */,
+				8649466C2AAFB21D005490BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8649466D2AAFB21D005490BA /* Build configuration list for PBXNativeTarget "PlayWithAlphaNumericsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8649466E2AAFB21D005490BA /* Debug */,
+				8649466F2AAFB21D005490BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		864946702AAFB21D005490BA /* Build configuration list for PBXNativeTarget "PlayWithAlphaNumericsAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				864946712AAFB21D005490BA /* Debug */,
+				864946722AAFB21D005490BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		864946732AAFB21D005490BA /* Build configuration list for PBXNativeTarget "PlayWithAlphaNumericsAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				864946742AAFB21D005490BA /* Debug */,
+				864946752AAFB21D005490BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8649463B2AAFB21C005490BA /* Project object */;
+}
